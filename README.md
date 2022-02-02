@@ -5,7 +5,7 @@ _This project is a proof of concept for implementing a uci protocol chess engine
 
 ## Helpful Language
 UCI [Universal Chess Interface]
-:  Text based protocol used by engines to play chess games automatically.
+:  Text based protocol used by engines to play chess games automatically. [uci protocol](http://wbec-ridderkerk.nl/html/UCIProtocol.html)
 
 FEN [Forsyth–Edwards Notation]
 : A description of a board state as a string, using letters and numbers to define the pieces position and empty spaces. Following is an example of a string depicting the beginning state of a board as a FEN string.
