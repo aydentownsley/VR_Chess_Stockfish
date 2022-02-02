@@ -9,6 +9,13 @@ public class runStockfish : MonoBehaviour
 {
     public GameObject startButton;
 
+    /// <summary>
+    /// Runs stockfish as a windowless terminal
+    /// handles the input and output of stockfish
+    /// waits for stockfish to finish by checking
+    /// for the "bestmove" command that tells us
+    /// stockfish has finished running
+    /// </summary>
     public void getMove(string fen)
     {
         string result = "";

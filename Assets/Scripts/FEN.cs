@@ -68,6 +68,8 @@ public class FEN : MonoBehaviour
 
     /// <summary>
     /// Runs stockfish process on its seperate thread
+    /// Decides which environment the program is running in
+    /// Handles all neccessary calls and closes stockfish process
     /// </summary>
     public void stockfish()
     {
