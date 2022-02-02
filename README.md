@@ -21,5 +21,9 @@ This test is accomplished in **Unity** using the **XR Interaction Toolkit** and 
 3. Run engine with given board state
 4. Take results from engine computation and effect corresponding asset (Chess Piece on Board).
 
+**TO ACCOMPLISH**
+[] Handle captures
+[] Handle end of game
+
 
 
