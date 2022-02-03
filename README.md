@@ -3,6 +3,8 @@
 
 _This project is a proof of concept for implementing a uci protocol chess engine in a virutal reality environment._
 
+![Unity Preview Screenshot with debugger output](/images/stockfish_screengrab.PNG)
+
 ## Helpful Language
 UCI [Universal Chess Interface]
 :  Text based protocol used by engines to play chess games automatically. [uci protocol](http://wbec-ridderkerk.nl/html/UCIProtocol.html)
