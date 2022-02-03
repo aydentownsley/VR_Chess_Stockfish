@@ -23,13 +23,13 @@ This test is accomplished in **Unity** using the **XR Interaction Toolkit** and 
 3. Run engine with given board state
 4. Take results from engine computation and effect corresponding asset (Chess Piece on Board).
 
-**Big Learning Experience**
-So up until this point, most games and experiences I have created are small enough where optimization is simple and performance is not a huge concern. For this tool I had to dive in to mutlithreading. The stockfish "terminal"
-can not run on the main thread. My first attempts to do so resulted in a horrific lag or complete freeze in the VR headset and caused my first in headset bout with nausea. Digging into multithreading, per suggestion of a friend, we have remedies the solution. Now, when stockfish is called, a seperate thread process is created and runs stockfish as a windowless program. Once stockfish has a suggested move, the thread return the move and closes down.
-
 **TO ACCOMPLISH**
 - Handle captures
 - Handle end of game
+
+### Big Learning Experience
+So up until this point, most games and experiences I have created are small enough where optimization is simple and performance is not a huge concern. For this tool I had to dive in to mutlithreading. The stockfish "terminal"
+can not run on the main thread. My first attempts to do so resulted in a horrific lag or complete freeze in the VR headset and caused my first in headset bout with nausea. Digging into multithreading, per suggestion of a friend, we have remedies the solution. Now, when stockfish is called, a seperate thread process is created and runs stockfish as a windowless program. Once stockfish has a suggested move, the thread return the move and closes down.
 
 ## About Me
 Hi! I am a student at Holberton. I am finishing the Full Stack Software Engineering program with a specialization in Augmented and Virtual Reality Development. I have found a healthy interest in creating behind the scenes tools for VR experiences. Welcome and feel free to click around. Please contact me with any thoughts, suggestions, or job opportunities!
