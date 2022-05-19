@@ -32,7 +32,7 @@ So up until this point, most games and experiences I have created are small enou
 can not run on the main thread. My first attempts to do so resulted in a horrific lag or complete freeze in the VR headset and caused my first in headset bout with nausea. Digging into multithreading, per suggestion of a friend, we have remedies the solution. Now, when stockfish is called, a seperate thread process is created and runs stockfish as a windowless program. Once stockfish has a suggested move, the thread return the move and closes down.
 
 ## About Me
-Hi! I am a student at Holberton. I am finishing the Full Stack Software Engineering program with a specialization in Augmented and Virtual Reality Development. I have found a healthy interest in creating behind the scenes tools for VR experiences. Welcome and feel free to click around. Please contact me with any thoughts, suggestions, or job opportunities!
+Hi! I am a graduate of Holberton. I have finished the Full Stack Software Engineering program with a specialization in Augmented and Virtual Reality Development. I enjoy creating behind the scenes tools for VR experiences. Feel free to click around. Please contact me with any thoughts, suggestions, or job opportunities!
 
 🐦 [twitter](https://twitter.com/whoziwhatzit_)
 💼 [linkedin](https://www.linkedin.com/in/aydentownsley/)
